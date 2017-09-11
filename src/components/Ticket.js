@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/ticket.css';
 
 const Ticket = ({ id, title, description, onClick }) => {
-	return <div>I am a ticket called { title }</div>
+	return <div className="ticket">I am a ticket called { title }</div>
 }
 
 export default Ticket

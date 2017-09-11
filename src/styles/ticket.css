@@ -1,6 +1,7 @@
-body {
-  background:red;
-  margin: 0;
-  padding: 0;
+.ticket {
+  background: gray;
+  width: 300px;
+  height: 300px;
+  padding: 1em;
   font-family: sans-serif;
 }
