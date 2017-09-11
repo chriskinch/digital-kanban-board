@@ -1,0 +1,97 @@
+{
+  "lanes": [
+    {
+      "name": "sales",
+      "label": "Sales",
+      "wip": 3  
+    },
+    {
+      "name": "bau",
+      "label": "Business as usual",
+      "wip": 8  
+    }
+  ],
+  "groups": [
+    {
+      "name": "qa",
+      "label": "QA",
+      "columns": [
+        {
+          "name": "review",
+          "label": "Review",
+          "wip": 3
+        },
+        {
+          "name": "done",
+          "label": "Done"
+        }
+      ]
+    },
+    {
+      "name": "ready",
+      "label": "Ready",
+      "columns": [
+        {
+          "name": "ready",
+          "label": "Ready",
+          "wip": 4
+        }
+      ]
+    },
+    {
+      "name": "dev",
+      "label": "Dev",
+      "wip": {
+        "be": 7,
+        "fe": 8
+      },
+      "columns": [
+        {
+          "name": "in-progress",
+          "label": "In Progress"
+        },
+        {
+          "name": "done",
+          "label": "Done"
+        }
+      ]
+    },
+    {
+      "name": "testing",
+      "label": "Testing",
+      "columns": [
+        {
+          "name": "in-progress",
+          "label": "In Progress",
+          "wip": {
+            "be": 5,
+            "fe": 5
+          }
+        },
+        {
+          "name": "ci",
+          "label": "CI"
+        },
+        {
+          "name": "fail",
+          "label": "Fail"
+        }
+      ]
+    },
+    {
+      "name": "deploy",
+      "label": "Deploy",
+      "columns": [
+        {
+          "name": "ready",
+          "label": "Ready",
+          "wip": 2
+        },
+        {
+          "name": "live",
+          "label": "Live"
+        }
+      ] 
+    }
+  ]
+}
