@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Group = ({ item }) => {
-  return (
-    <section>
-      <h4>{ item.label }</h4>
-    </section>
-  )
+export default class Group extends React.Component {
+  render() {
+    return (
+      <section>
+        <h4>{ this.props.item.label }</h4>
+      </section>
+    )
+  }
 }
-
-export default Group

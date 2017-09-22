@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import boardLayout from '../config/boardlayout.json';
 import Lane from './Lane';
 import Ticket from './Ticket';
 
-class Board extends Component {
+export default class Board extends React.Component{
   render() {
     return (
       <div className="main-board">
@@ -21,5 +21,3 @@ class Board extends Component {
     );
   }
 }
-
-export default Board;
